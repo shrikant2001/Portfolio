@@ -1,0 +1,28 @@
+@import './Variables.scss';
+// mobile
+@media only screen and (min-width: 375px) {
+    .main-contact {
+        padding: 2rem 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main-contact {
+        padding: 4rem 12rem;
+    }
+}
+
+.main-contact {
+    height: auto;
+    background: linear-gradient(45deg, #d1d415, #bcc90b);
+    border-bottom: black solid 4px;
+}
+
+.main-contact-container {
+    height: 100%;
+    border-radius: 50px;
+    padding: 0.5rem 3rem;
+    background: #f5f822;
+    box-shadow: 23px -23px 30px #d1d418, -23px 23px 30px #b9c50c;
+    border: black solid 4px;
+}

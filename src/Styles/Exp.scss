@@ -1,0 +1,28 @@
+@import './Variables.scss';
+// mobile
+@media only screen and (min-width: 375px) {
+    .main-exp {
+        padding: 2rem 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main-exp {
+        padding: 4rem 12rem;
+    }
+}
+
+.main-exp {
+    height: auto;
+    background: linear-gradient(45deg, #c2e41a, #73be0a);
+    border-bottom: black solid 4px;
+}
+
+.main-exp-container {
+    height: 100%;
+    border-radius: 50px;
+    padding: 0.5rem 3rem;
+    background: #86f30a;
+    box-shadow: 23px -23px 30px #74bb01, -23px 23px 30px #b6d40b;
+    border: black solid 4px;
+}

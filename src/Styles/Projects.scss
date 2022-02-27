@@ -1,0 +1,28 @@
+@import './Variables.scss';
+// mobile
+@media only screen and (min-width: 375px) {
+    .main-projects {
+        padding: 2rem 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main-projects {
+        padding: 4rem 12rem;
+    }
+}
+
+.main-projects {
+    height: auto;
+    background: linear-gradient(45deg, #ab4ae2, #9b22d3);
+    border-bottom: black solid 4px;
+}
+
+.main-projects-container {
+    height: 100%;
+    border-radius: 50px;
+    padding: 0.5rem 3rem;
+    background: #bc58f7;
+    box-shadow: 23px -23px 30px #9f36db, -23px 23px 30px #9b1cd6;
+    border: black solid 4px;
+}

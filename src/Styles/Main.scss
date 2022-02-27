@@ -2,34 +2,44 @@
 // mobile
 @media only screen and (min-width: 375px) {
     .main {
-        padding: $mob_v_pad $mob_h_pad;
+        padding: 2rem 0.6rem;
     }
     .me {
         height: 200px;
         width: 200px;
     }
+    .name {
+        font-size: 24px;
+    }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
     .main {
-        padding: $pc_v_pad $pc_h_pad;
+        padding: 4rem 12rem;
     }
     .me {
         height: 300px;
         width: 300px;
     }
+    .name {
+        font-size: 85px;
+    }
 }
 
 .main {
     height: auto;
-    background: linear-gradient(45deg, #ff6600, #ff6600);
+    background: linear-gradient(45deg, #d86d25, #e65f05);
+    border-bottom: black solid 4px;
 }
 
 .main-container {
+    margin-top: 3rem;
     height: 100%;
     border-radius: 50px;
-    background: #ff6600;
-    box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
+    padding: 0.5rem 3rem;
+    background: #ff7b00;
+    box-shadow: 23px -23px 30px #d65804, -23px 23px 30px #ce651f;
+    border: black solid 4px;
 }
 
 // image
@@ -42,22 +52,26 @@
     margin-top: 2rem;
     width: fit-content;
     border-radius: 50px;
-    background: linear-gradient(-45deg, #c2c2c2, #d8d8d8);
+    background: linear-gradient(-45deg, #d1d0d0, #ececec);
     box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
+    border: black solid 4px;
 }
 
 .me {
     border-radius: 40px;
-    border: #000000 solid 10px;
+    border: #000000 solid 8px;
     margin: 30px 30px;
 }
 
 //text content
 .name {
-    margin-top: 2rem;
+    margin: auto;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .about-me {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 1rem;
 }

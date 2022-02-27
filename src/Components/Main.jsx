@@ -7,7 +7,7 @@ const Main = () => {
     <div className="main">
         <div className="container main-container">
             <div className="row">
-                <div className="col name">HI <br></br>I'm Shrikant Jadhav</div>
+                <div className="col name">SHRIKANT<br></br>JADHAV</div>
                 {/* my pic */}
                 <div className="col col-center">
                     <div className="img-container">
