@@ -1,0 +1,63 @@
+@import './Variables.scss';
+// mobile
+@media only screen and (min-width: 375px) {
+    .main {
+        padding: $mob_v_pad $mob_h_pad;
+    }
+    .me {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .main {
+        padding: $pc_v_pad $pc_h_pad;
+    }
+    .me {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.main {
+    height: auto;
+    background: linear-gradient(45deg, #ff6600, #ff6600);
+}
+
+.main-container {
+    height: 100%;
+    border-radius: 50px;
+    background: #ff6600;
+    box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
+}
+
+// image
+.col-center {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    margin-top: 2rem;
+    width: fit-content;
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #c2c2c2, #d8d8d8);
+    box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
+}
+
+.me {
+    border-radius: 40px;
+    border: #000000 solid 10px;
+    margin: 30px 30px;
+}
+
+//text content
+.name {
+    margin-top: 2rem;
+}
+
+.about-me {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
