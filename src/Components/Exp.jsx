@@ -3,7 +3,7 @@ import '../Styles/Exp.scss'
 
 const Exp = () => {
   return (
-    <div className='main-exp'>
+    <div className='main-exp' id='exp'>
       <div className='main-exp-container'>
         <div className='row title display-2'>EXPERIENCE</div>
 

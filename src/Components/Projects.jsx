@@ -3,7 +3,7 @@ import '../Styles/Projects.scss'
 
 const Projects = () => {
   return (
-    <div className='main-projects'>
+    <div className='main-projects' id='project'>
       <div className='main-projects-container'>
         <div className='row title display-2'>PROJECTS</div>
 

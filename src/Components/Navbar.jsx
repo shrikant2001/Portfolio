@@ -19,27 +19,22 @@ const Navbar = () => {
             <ul class='navbar-nav'>
               
               <li class='nav-item'>
-                <a class='nav-link' href='#'>
+                <a class='nav-link' href='#skills'>
                   SKILLS
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href='#'>
+                <a class='nav-link' href='#exp'>
                   EXPERIENCE
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href='#'>
+                <a class='nav-link' href='#project'>
                   PROJECTS
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href='#'>
-                  EDUCATION
-                </a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='#'>
+                <a class='nav-link' href='#contact'>
                   CONTACT
                 </a>
               </li>

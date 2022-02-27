@@ -4,11 +4,25 @@
     .main-skills {
         padding: 2rem 0.6rem;
     }
+    .skill-title {
+        font-size: 1rem;
+    }
+    .icon {
+        height: 42px;
+        width: 42px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     .main-skills {
         padding: 4rem 12rem;
+    }
+    .skill-title {
+        font-size: 2rem;
+    }
+    .icon {
+        height: 62px;
+        width: 62px;
     }
 }
 
@@ -25,4 +39,42 @@
     background: #0cc9f8;
     box-shadow: 23px -23px 30px #0da2b6, -23px 23px 30px #03bbc2;
     border: black solid 4px;
+}
+
+.skills-details {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.skill-detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    text-decoration: underline;
+}
+
+.skill-icon {
+    width: fit-content;
+    margin: auto;
+}
+
+.skill-title {
+    text-align: left;
+}
+
+// icons
+.icon {
+    padding: 3px;
+    margin: 2px;
+    border-radius: 6px;
+    border: black solid 2px;
+}
+
+.icon-container-out {
+    justify-content: flex-start;
+}
+
+.skill-name {
+    text-align: center;
 }
