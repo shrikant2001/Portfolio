@@ -4,11 +4,17 @@
     .main-exp {
         padding: 2rem 0.6rem;
     }
+    .exp-title {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     .main-exp {
         padding: 4rem 12rem;
+    }
+    .exp-title {
+        font-size: 2rem;
     }
 }
 
@@ -20,9 +26,18 @@
 
 .main-exp-container {
     height: 100%;
-    border-radius: 50px;
+    border-radius: 0.5rem;
     padding: 0.5rem 3rem;
     background: #86f30a;
     box-shadow: 23px -23px 30px #74bb01, -23px 23px 30px #b6d40b;
     border: black solid 4px;
+}
+
+.temp {
+    height: 200px;
+    width: 240px;
+    border: black solid 5px;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 0px;
 }

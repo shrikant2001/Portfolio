@@ -35,7 +35,7 @@
 .main-container {
     margin-top: 3rem;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 0.5rem;
     padding: 0.5rem 3rem;
     background: #ff7b00;
     box-shadow: 23px -23px 30px #d65804, -23px 23px 30px #ce651f;
@@ -51,15 +51,15 @@
 .img-container {
     margin-top: 2rem;
     width: fit-content;
-    border-radius: 50px;
+    border-radius: 0.5rem;
     background: linear-gradient(-45deg, #d1d0d0, #ececec);
     box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
     border: black solid 4px;
 }
 
 .me {
-    border-radius: 40px;
-    border: #000000 solid 8px;
+    border-radius: 0.4rem;
+    border: #000000 solid 4px;
     margin: 30px 30px;
 }
 

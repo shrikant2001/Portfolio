@@ -10,6 +10,9 @@
     .main-contact {
         padding: 4rem 12rem;
     }
+    .msg-socials {
+        display: flex;
+    }
 }
 
 .main-contact {
@@ -20,9 +23,42 @@
 
 .main-contact-container {
     height: 100%;
-    border-radius: 50px;
-    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    padding: 3rem 3rem;
     background: #f5f822;
     box-shadow: 23px -23px 30px #d1d418, -23px 23px 30px #b9c50c;
     border: black solid 4px;
+}
+
+.msg-socials {}
+
+.msg-container {
+    flex: 5;
+    background: linear-gradient(-45deg, #d1d0d0, #ececec);
+    border: black solid 4px;
+}
+
+.empty-container {
+    flex: 1;
+    padding: 4px;
+}
+
+.social-container {
+    border: black solid 4px;
+    padding: 4px;
+    flex: 3;
+}
+
+.social-detail {
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+.enter {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.inputs {
+    width: 100%;
 }

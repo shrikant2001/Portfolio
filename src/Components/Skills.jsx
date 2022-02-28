@@ -11,33 +11,33 @@ const Skills = () => {
             <div className="skill-title">&#8226; Website Development</div>
             <div className="row skills-details">
 
-            <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/react-native.png"/></div>
+            <div className="skill-detail">
+              <img className="icon" src="https://img.icons8.com/color/480/000000/react-native.png"/>
                 <span className="skill-name">ReactJS</span>
               </div>
 
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/nodejs.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/nodejs.png"/>
                 <span className="skill-name">NodeJS</span>
               </div>
 
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/mongodb.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/mongodb.png"/>
                 <span className="skill-name">Mongodb</span>
               </div>
 
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/javascript.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/javascript.png"/>
                 <span className="skill-name">JS</span>
               </div>
 
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/sass.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/sass.png"/>
                 <span className="skill-name">Sass</span>
               </div>
 
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/html-5--v1.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/html-5--v1.png"/>
                 <span className="skill-name">HTML5</span>
               </div>
 
@@ -45,16 +45,16 @@ const Skills = () => {
             <div className="skill-title">&#8226; Programming</div>
             <div className="row skills-details">
 
-            <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/python.png"/></div>
+            <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/python.png"/>
                 <span className="skill-name">Python</span>
               </div>
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/java.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/java.png"/>
                 <span className="skill-name">Java</span>
               </div>
-              <div className="skill-detail col">
-                <div className="skill-icon"><img className="icon" src="https://img.icons8.com/color/480/000000/c-plus-plus-logo.png"/></div>
+              <div className="skill-detail">
+                <img className="icon" src="https://img.icons8.com/color/480/000000/c-plus-plus-logo.png"/>
                 <span className="skill-name">C++</span>
               </div>
 
