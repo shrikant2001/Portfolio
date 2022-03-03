@@ -20,23 +20,24 @@
 
 .main-exp {
     height: auto;
-    background: linear-gradient(45deg, #c2e41a, #73be0a);
-    border-bottom: black solid 4px;
+    background-image: url('https://media.istockphoto.com/photos/white-strips-lines-or-battens-wall-or-fence-pattern-surface-texture-picture-id1128143212?k=20&m=1128143212&s=170667a&w=0&h=xXtRoeqF9dc9dLhFDtnimMbZIwdi-yeXjBYCBC0n73Q=');
+    border-bottom: rgb(0, 0, 0) solid 4px;
 }
 
 .main-exp-container {
+    color: aliceblue;
     height: 100%;
     border-radius: 0.5rem;
     padding: 0.5rem 3rem;
-    background: #86f30a;
-    box-shadow: 23px -23px 30px #74bb01, -23px 23px 30px #b6d40b;
-    border: black solid 4px;
+    background: rgba($color: #000000, $alpha: 1);
+    box-shadow: 1px -1px 10px #2c2c2c;
+    border: rgb(255, 255, 255) solid 4px;
 }
 
 .temp {
     height: 200px;
     width: 240px;
-    border: black solid 5px;
+    border: rgb(255, 255, 255) solid 5px;
     border-radius: 15px;
     margin: 25px;
     padding: 0px;

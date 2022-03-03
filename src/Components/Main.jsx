@@ -4,12 +4,12 @@ import me from '../Img/me.jpg'
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main ">
         <div className="container main-container">
             <div className="row">
-                <div className="col name">SHRIKANT<br></br>JADHAV</div>
+                <div className="col my-name ">SHRIKANT<br></br>JADHAV</div>
                 {/* my pic */}
-                <div className="col col-center">
+                <div className="col col-center ">
                     <div className="img-container">
                         <img className='me' src={me} alt="" />
                     </div>

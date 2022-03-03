@@ -17,17 +17,17 @@
 
 .main-contact {
     height: auto;
-    background: linear-gradient(45deg, #d1d415, #bcc90b);
-    border-bottom: black solid 4px;
+    background-image: url('https://thumbs.dreamstime.com/b/abstract-mosaic-tiles-vector-background-simple-trendy-symmetrical-lines-background-black-white-abstract-vector-background-114115305.jpg');
 }
 
 .main-contact-container {
+    color: aliceblue;
     height: 100%;
     border-radius: 0.5rem;
     padding: 3rem 3rem;
-    background: #f5f822;
-    box-shadow: 23px -23px 30px #d1d418, -23px 23px 30px #b9c50c;
-    border: black solid 4px;
+    background: rgba($color: #000000, $alpha: 1);
+    box-shadow: 1px -1px 10px #2c2c2c;
+    border: rgb(255, 255, 255) solid 4px;
 }
 
 .msg-socials {}
@@ -44,7 +44,7 @@
 }
 
 .social-container {
-    border: black solid 4px;
+    border: rgb(255, 255, 255) solid 4px;
     padding: 4px;
     flex: 3;
 }

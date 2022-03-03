@@ -8,8 +8,9 @@
         height: 200px;
         width: 200px;
     }
-    .name {
-        font-size: 24px;
+    .my-name {
+        font-size: 32px;
+        text-align: center;
     }
 }
 
@@ -21,25 +22,26 @@
         height: 300px;
         width: 300px;
     }
-    .name {
+    .my-name {
         font-size: 85px;
     }
 }
 
 .main {
     height: auto;
-    background: linear-gradient(45deg, #d86d25, #e65f05);
+    background-image: url('https://t3.ftcdn.net/jpg/02/27/28/94/360_F_227289423_qCawKVdIzYDAXkYm0c46yrpKyhYrA7Sr.jpg');
+    // background: linear-gradient(45deg, #fdb382, #fa9aaf, rgb(255, 173, 173), pink);
     border-bottom: black solid 4px;
+    // background: linear-gradient(-45deg, #d1d0d0, #ececec);
 }
 
 .main-container {
     margin-top: 3rem;
     height: 100%;
-    border-radius: 0.5rem;
     padding: 0.5rem 3rem;
-    background: #ff7b00;
-    box-shadow: 23px -23px 30px #d65804, -23px 23px 30px #ce651f;
-    border: black solid 4px;
+    background: rgba($color: #000000, $alpha: 1);
+    box-shadow: 1px -1px 10px #2c2c2c;
+    border: rgb(255, 255, 255) solid 4px;
 }
 
 // image
@@ -51,27 +53,46 @@
 .img-container {
     margin-top: 2rem;
     width: fit-content;
-    border-radius: 0.5rem;
-    background: linear-gradient(-45deg, #d1d0d0, #ececec);
-    box-shadow: 23px 23px 46px #b34700, -23px -23px 46px #ff7b00;
-    border: black solid 4px;
+    border-radius: 0.2rem;
+    background-image: url('https://t3.ftcdn.net/jpg/02/27/28/94/360_F_227289423_qCawKVdIzYDAXkYm0c46yrpKyhYrA7Sr.jpg');
+    box-shadow: 1px 1px 2px #000000, -1px -1px 2px #000000;
 }
 
 .me {
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     border: #000000 solid 4px;
-    margin: 30px 30px;
+    margin: 10px 10px;
 }
 
 //text content
-.name {
+.my-name {
+    color: aliceblue;
     margin: auto;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .about-me {
+    color: aliceblue;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1rem;
+}
+
+.grad-container {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

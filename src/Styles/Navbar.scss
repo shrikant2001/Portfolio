@@ -1,6 +1,6 @@
 @media only screen and (min-width: 375px) {
     .nav-item {
-        background-color: #b34700;
+        background-color: #000000;
     }
 }
 
@@ -14,20 +14,23 @@
     }
 }
 
+.nav-link {
+    color: aliceblue !important;
+    font-size: 1.5rem;
+}
+
 .navbar-container {
+    color: aliceblue !important;
     height: 3rem;
     width: 100%;
-    background: linear-gradient(-45deg, #d1d0d0, #ececec);
+    background: linear-gradient(-45deg, #000000, #000000);
     box-shadow: 3px 3px 6px #1d1d1d;
     // fixed navbar
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-}
-
-.navbar-butn-container {
-    font-weight: bold;
+    border-bottom: white solid 1px;
 }
 
 .nav-item {
@@ -38,4 +41,8 @@
 .nav-item:hover {
     font-size: 2rem;
     transition-duration: 0.1s;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
 }

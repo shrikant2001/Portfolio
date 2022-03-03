@@ -20,17 +20,18 @@
 
 .main-projects {
     height: auto;
-    background: linear-gradient(45deg, #ab4ae2, #9b22d3);
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/13/13/51/marble-2398946__480.jpg');
     border-bottom: black solid 4px;
 }
 
 .main-projects-container {
+    color: aliceblue;
     height: 100%;
     border-radius: 0.5rem;
     padding: 0.5rem 3rem;
-    background: #bc58f7;
-    box-shadow: 23px -23px 30px #9f36db, -23px 23px 30px #9b1cd6;
-    border: black solid 4px;
+    background: rgba($color: #000000, $alpha: 1);
+    box-shadow: 1px -1px 10px #2c2c2c;
+    border: rgb(255, 255, 255) solid 4px;
 }
 
 .project-title {}
