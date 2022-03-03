@@ -1,2 +1,39 @@
+.grad-container-main {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, rgb(248, 149, 0));
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: gradient 5s ease infinite;
+}
 
+.grad-container-skills {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, rgb(248, 149, 0));
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: gradient 5s ease infinite;
+}
 
+.grad-container-exp {
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab, #ee7752);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: gradient 5s ease infinite;
+}
+
+.grad-container-projects {
+    background: linear-gradient(-45deg, #23d5ab, #ee7752, #e73c7e, #23a6d5);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

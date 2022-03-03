@@ -4,9 +4,6 @@
     .main-skills {
         padding: 2rem 0.6rem;
     }
-    .skill-title {
-        font-size: 1.5rem;
-    }
     .icon {
         height: 42px;
         width: 42px;
@@ -17,9 +14,6 @@
     .main-skills {
         padding: 4rem 12rem;
     }
-    .skill-title {
-        font-size: 2rem;
-    }
     .icon {
         height: 62px;
         width: 62px;
@@ -28,9 +22,12 @@
 
 .main-skills {
     height: auto;
-    // background: linear-gradient(45deg, #10acc0, #02bfc5);
-    background-image: url('https://st4.depositphotos.com/39967654/41152/i/950/depositphotos_411523062-stock-photo-white-marble-texture-background-high.jpg?forcejpeg=true');
+    background: linear-gradient(45deg, #000000, #ffffff);
+    background-image: url('https://payload.cargocollective.com/1/4/136265/10889399/continuo-mas-floral_1600_c.jpg');
     border-bottom: rgb(0, 0, 0) solid 4px;
+    background-size: cover;
+    background-attachment: fixed;
+    // background-size: 800% 800%;
 }
 
 .main-skills-container {
@@ -38,7 +35,7 @@
     height: 100%;
     border-radius: 0.5rem;
     padding: 0.5rem 3rem;
-    background: rgba($color: #000000, $alpha: 1);
+    background: rgba($color: #000000, $alpha: 0.9);
     box-shadow: 1px -1px 10px #2c2c2c;
     border: rgb(255, 255, 255) solid 4px;
 }
@@ -54,6 +51,11 @@
     flex-direction: column;
     width: fit-content;
     text-decoration: underline;
+}
+
+.icon:hover {
+    transition-duration: 0.2s;
+    background-color: aliceblue;
 }
 
 .skill-icon {
@@ -79,6 +81,7 @@
 }
 
 .skill-name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: aliceblue;
 }

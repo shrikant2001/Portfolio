@@ -3,6 +3,7 @@
 @media only screen and (min-width: 375px) {
     .main {
         padding: 2rem 0.6rem;
+        height: auto;
     }
     .me {
         height: 200px;
@@ -17,29 +18,33 @@
 @media only screen and (min-width: 1000px) {
     .main {
         padding: 4rem 12rem;
+        min-height: 100vh;
     }
     .me {
         height: 300px;
         width: 300px;
     }
     .my-name {
-        font-size: 85px;
+        font-size: 100px;
     }
 }
 
 .main {
-    height: auto;
-    background-image: url('https://t3.ftcdn.net/jpg/02/27/28/94/360_F_227289423_qCawKVdIzYDAXkYm0c46yrpKyhYrA7Sr.jpg');
+    // background-image: url('https://t3.ftcdn.net/jpg/02/27/28/94/360_F_227289423_qCawKVdIzYDAXkYm0c46yrpKyhYrA7Sr.jpg');
     // background: linear-gradient(45deg, #fdb382, #fa9aaf, rgb(255, 173, 173), pink);
     border-bottom: black solid 4px;
     // background: linear-gradient(-45deg, #d1d0d0, #ececec);
+    background-image: url('../Img/entity-ten-floral-prints-you-need-for-your-walls.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .main-container {
     margin-top: 3rem;
     height: 100%;
     padding: 0.5rem 3rem;
-    background: rgba($color: #000000, $alpha: 1);
+    background: rgba($color: #000000, $alpha: 0.9);
     box-shadow: 1px -1px 10px #2c2c2c;
     border: rgb(255, 255, 255) solid 4px;
 }
@@ -77,22 +82,4 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1rem;
-}
-
-.grad-container {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }

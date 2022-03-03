@@ -2,13 +2,13 @@ import React from "react";
 import "../Styles/Skills.scss";
 const Skills = () => {
   return (
-    <div className='main-skills' id='skills'>
+    <div className='main-skills grad-container-skill' id='skills'>
       <div className='main-skills-container'>
         <div className='row title display-2'>SKILLS</div>
-
+        < hr />
         <div className="skill-types">
           <div className="row skill-type">
-            <div className="skill-title">&#8226; Website Development</div>
+            <div className="skill-title display-6">&#8226; Website Development</div>
             <div className="row skills-details">
 
             <div className="skill-detail">
@@ -42,12 +42,14 @@ const Skills = () => {
               </div>
 
             </div>
-            <div className="skill-title">&#8226; Programming</div>
+            <div className="mt-4"></div>
+            < hr />
+            <div className="skill-title display-6">&#8226; Programming</div>
             <div className="row skills-details">
 
             <div className="skill-detail">
                 <img className="icon" src="https://img.icons8.com/color/480/000000/python.png"/>
-                <span className="skill-name">Python</span>
+                <span className="skill-name ">Python</span>
               </div>
               <div className="skill-detail">
                 <img className="icon" src="https://img.icons8.com/color/480/000000/java.png"/>
