@@ -15,8 +15,10 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className="row about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur aliquam nesciunt voluptates qui temporibus rerum illo fugit aliquid eligendi fugiat excepturi, optio harum eveniet? Natus eaque consequatur sunt quos!</div>
-            <div className="row about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur aliquam nesciunt voluptates qui temporibus rerum illo fugit aliquid eligendi fugiat excepturi, optio harum eveniet? Natus eaque consequatur sunt quos!</div>
+
+            <div className="row about-me">
+                Hi 👋 !! I am a full-time learner and a computer science under-graduate at Indian Institute of Information Technology , Pune.
+            </div>
         </div>
     </div>
   )

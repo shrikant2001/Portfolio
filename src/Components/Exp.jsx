@@ -17,7 +17,10 @@ const Exp = () => {
         <hr />
         <div className="exp-title text-left display-6">&#8226; Professional</div>
         <div className='exp'>
-            <img className='temp' src="https://media3.giphy.com/media/WmMp1qmKaKuHPfCq3a/giphy.gif" alt="" />
+        <li><b>Front-end Web developer</b> at <b>Lueurtech software solutions</b> 
+        <br />  &nbsp; &nbsp; &nbsp; 03-2022 to 04-2022
+        </li>
+
         </div>
       </div>
     </div>
